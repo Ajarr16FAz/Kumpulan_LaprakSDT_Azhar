@@ -310,6 +310,7 @@ int main(){
 main.cpp adalah program utama yang mencoba semua operasi linked list dari list.h dan list.cpp. Pertama, program membuat list kosong dan lima node mahasiswa (Dhimas, Arvin, Rizal, Satrio, Joshua) dengan alokasi. Kelimanya dimasukkan ke list dengan urutan: Dhimas di awal, Arvin di akhir, Rizal setelah Dhimas, Satrio setelah Rizal, dan Joshua di akhir, sehingga urutannya Dhimas, Rizal, Satrio, Arvin, Joshua. Isi list dan jumlah node (5) ditampilkan. Setelah itu program menghapus node pertama (Dhimas), node terakhir (Joshua), dan node setelah Rizal (Satrio), lalu menampilkan sisanya, yaitu Rizal dan Arvin (2 node). Terakhir, seluruh list dihapus dengan deleteList dan ditampilkan lagi untuk memperlihatkan bahwa list sudah kosong dengan jumlah node 0.
 
 ### output Unguided 
+![Screenshot Output Unguided 1_1]/(output_mainlist.png)
 
 ## Unguided 
 
