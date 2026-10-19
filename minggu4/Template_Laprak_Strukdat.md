@@ -495,7 +495,8 @@ int main(){
 ```
 ### Output Unguided 3 :
 
-
+### Output Singlylist
+![Screenshot Output Singlylist](output/output_singlylist.png)
 
 main_singlylist.cpp adalah program utama yang menjalankan semuanya. Program membuat list kosong, mengalokasikan lima node (2, 0, 8, 12, 9), lalu menyisipkannya satu per satu dengan insertFirst sehingga list menjadi 9 → 12 → 8 → 0 → 2, dan menampilkannya (soal 1). Setelah itu node 9, 2, dan 8 dihapus, sisa list (12 dan 0) ditampilkan beserta jumlah nodenya, lalu seluruh list dihapus (soal 2).
 
