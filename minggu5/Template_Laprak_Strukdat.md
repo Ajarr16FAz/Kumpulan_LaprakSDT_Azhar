@@ -461,7 +461,7 @@ Program ini membuat linked list yang menyimpan data buah (nama, jumlah, harga), 
 
 ### output Unguided 
 
-![Screenshot Output Mainlist](output/output_guided.png)
+![Output Guided](output/guided.png)
 
 
 ## Unguided 
@@ -612,7 +612,7 @@ int main() {
 ### Output Unguided 3 :
 
 ### Output Singlylist
-![Screenshot Output Singlylist](output/output_unguaided.png)
+![Output Unguided](output/unguided.png)
 
 File ini adalah main yang menjalankan semua soal sekaligus (soal 2, 3, dan 4) dalam satu program, dengan meng-include singlylist2.h agar bisa memakai semua fungsi ADT. Pertama, List L dibuat dan diisi list kosong lewat CreateList. Lalu lima node dialokasikan dengan nilai 2, 0, 8, 12, 9, dan masing-masing langsung disisipkan di depan dengan insertFirst, sehingga node yang terakhir dimasukkan (9) jadi paling depan dan urutan list berakhir menjadi 9, 12, 8, 0, 2. Bagian soal 2 memanggil printInfo(L) yang mencetak 9 12 8 0 2. Bagian soal 3 memanggil findElm(L, 8) dan menyimpan alamat hasilnya di hasil; kalau bukan Nil berarti node ditemukan, sehingga tercetak 8 ditemukan dalam list, sedangkan kalau Nil tercetak pesan tidak ditemukan. Bagian soal 4 memanggil sumInfo(L) yang menjumlahkan seluruh info (9+12+8+0+2) dan mencetak Total info dari kelima elemen adalah 31. Jadi output lengkap program ini tiga baris berurutan: 9 12 8 0 2, 8 ditemukan dalam list, dan Total info dari kelima elemen adalah 31.
 
